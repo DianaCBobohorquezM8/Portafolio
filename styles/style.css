@@ -111,7 +111,9 @@ body{
 
 
 .presentacion_imagen{
-    width: 30% ;
+    box-sizing: border-box;
+    width: 35%;
+    padding: 50px;
 
 }
 
