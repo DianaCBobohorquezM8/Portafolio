@@ -43,9 +43,6 @@ body{
     width: 10%;
 }
 
-.header_menu_links:hover{
-    background-color: var(--color-hover);
-}
 
 .presentacion {
     padding: 5% 8% ;
