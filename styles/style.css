@@ -4,7 +4,7 @@
     --color-primario: #1A2130;
     --color-secundario: #FDFFE2;
     --color-terciario:  #83B4FF;
-    --color-hover:     #f192df;
+    --color-hover:     #f0e1a5;
 
     --fuente-montserrat:'Montserrat', sans-serif;
     --fuente-krona: 'Krona One', sans-serif;
@@ -29,6 +29,7 @@ body{
 .header_menu{
  display: flex;
  gap: 80px;
+ 
 }
 
 .header_menu_links{
@@ -37,9 +38,11 @@ body{
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
-    
 }
 
+.header_menu_links:hover{
+    background-color: var(--color-hover);
+}
 
 .presentacion {
     padding: 5% 8% ;
@@ -127,11 +130,11 @@ body{
 
 .footer{
     background-color: var(--color-terciario);
-    padding: 24px;
+    padding: 10px;
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-montserrat);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
