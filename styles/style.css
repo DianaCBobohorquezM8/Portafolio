@@ -45,7 +45,7 @@ body{
 
 
 .presentacion {
-    padding: 5% 8% ;
+    padding: 5% 5% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -117,6 +117,7 @@ body{
 
 .presentacion__enlaces__link:hover{
     background-color: var(--color-hover);  
+    color: var(--color-primario);
 }
 
 .presentacion_imagen{
@@ -149,6 +150,6 @@ body{
     }
 
     .presentacion__contenido{
-        width: 100%;
+        width: auto;
     }
 }
